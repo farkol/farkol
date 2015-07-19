@@ -1,0 +1,120 @@
+/*  
+Theme Name: newspaper
+Theme URI: http://example.com/
+Description: A new theme!
+Version: 1.0
+Author: Morti
+Author URI: http://www.example.com/
+
+*/
+
+/*-----LAYOUT-----*/
+#wrapper{
+    width: 600px;
+    margin: 0 auto;
+}
+ 
+.post{
+    clear: both;
+    width: 600px;
+}
+ 
+.post .left{
+    width: 180px;
+    float: left;
+    padding-right: 0px;
+}
+ 
+.post .right{
+    width: 380px;
+    float: right;
+    padding: 0 10px 20px;
+}
+
+/*-----STYLES-----*/
+ 
+body{
+    font: 75%/18px Georgia, "Times New Roman", Times, serif;
+    background-color: #e4e4e4;
+}
+ 
+a{
+    color: #006082;
+    text-decoration: none;
+}
+ 
+.post .left{
+    text-align: right;
+    color: #898989;
+}
+ 
+.post .left p.postmetadata strong{
+    display: block;
+    text-transform: uppercase;
+}
+ 
+.right{
+    background-color: #fff;
+    min-height: 150px;
+}
+ 
+.entry{
+    color: #3c3c3c;
+}
+ 
+.entry p img{
+    padding: 0 10px 7px 0;
+    float: left;
+}
+ 
+a.more-link{
+    display: block;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+/*-----jQUERY-----*/
+ 
+.hero .left p.postmetadata{
+margin-top: 30px;
+}
+ 
+.hero .left p.postmetadata strong{
+margin-bottom: 20px;
+}
+ 
+.hero .right h2{
+font-size: 46px;
+font-style: italic;
+font-weight: normal;
+margin-bottom: 0.5em;
+}
+ 
+.hero .right p{
+font-size: 24px;
+}
+ 
+.hero a.more-link{
+background: url(images/arrow_right.png) no-repeat right bottom;
+float: left;
+padding-right: 20px;
+}
+ 
+.villain .left p.postmetadata{
+margin-top: 20px;
+}
+ 
+.villain .left p.postmetadata strong{
+margin-bottom: 15px;
+}
+ 
+.villain .right h2{
+font-size: 32px;
+font-weight: normal;
+color: #747474;
+}
+ 
+.villain .right p img{
+float: right;
+padding: 0 0 7px 10px;
+}
